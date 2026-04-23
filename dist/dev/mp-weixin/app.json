@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/chat/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "HealU",
+    "navigationBarBackgroundColor": "#F8F6F2",
+    "backgroundColor": "#F8F6F2"
+  },
+  "themeLocation": "theme.json",
+  "darkmode": true,
+  "usingComponents": {}
+}

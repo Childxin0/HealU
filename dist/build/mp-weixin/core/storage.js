@@ -1,0 +1,1 @@
+"use strict";const e=require("../common/vendor.js");exports.storageGet=function(t){try{if(void 0!==e.index&&e.index.getStorageSync){const n=e.index.getStorageSync(t);return""===n||void 0===n?null:n}}catch{}return null},exports.storageSet=function(t,n){try{void 0!==e.index&&e.index.setStorageSync&&e.index.setStorageSync(t,n)}catch{}};
